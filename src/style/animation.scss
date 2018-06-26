@@ -1,0 +1,72 @@
+.animate-fadeIn{
+
+}
+
+
+
+
+
+/*动画css样式*/
+
+@keyframes myfirst
+{
+    from {background: red;}
+    to {background: yellow;}
+}
+
+
+/* Firefox */
+@-moz-keyframes myfirst 
+{
+    from {background: red;}
+    to {background: yellow;}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes myfirst 
+{
+    from {background: red;}
+    to {background: yellow;}
+}
+
+
+
+@-webkit-keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		transform: none
+	}
+}
+
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		-webkit-transform: translate3d(0, 100%, 0);
+		-ms-transform: translate3d(0, 100%, 0);
+		transform: translate3d(0, 100%, 0)
+	}
+	100% {
+		opacity: 1;
+		-webkit-transform: none;
+		-ms-transform: none;
+		transform: none
+	}
+}
+
+
+@-webkit-keyframes fadeIn {
+	0% {
+		opacity: 0; /*初始状态 透明度为0*/
+	}
+	50% {
+		opacity: 0; /*中间状态 透明度为0*/
+	}
+	100% {
+		opacity: 1; /*结尾状态 透明度为1*/
+	}
+}

@@ -1,0 +1,14 @@
+@import './animation.scss';   //千万别忘记分号
+
+
+html,body,#app {
+    width: 100%;
+    height: 100%;
+}
+
+//占满
+.full{
+    width: 100%;
+    height: 100%;
+}
+
